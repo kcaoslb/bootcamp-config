@@ -81,10 +81,10 @@ bootstrap:
                 idp-source-name: bootcamp-12-prod-admin #<AAD Group name>
               - cdf-group: cdf:all:owner
                 idp-source-id: daa07c2b-350c-41d7-905b-b26528e9c193 #<AAD Group Object Id> # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-12-proc-all-owner #<AAD Group name> # i.e. bootcamp-01-test-all-owner
+                idp-source-name: bootcamp-12-prod-all-owner #<AAD Group name> # i.e. bootcamp-01-test-all-owner
               - cdf-group: cdf:all:read
                 idp-source-id: c7ab98c8-bcc2-46a8-a7e5-e80dd7a3915f #<AAD Group Object Id> # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-12-proc-all-read #<AAD Group name> # i.e. bootcamp-01-test-all-read
+                idp-source-name: bootcamp-12-prod-all-read #<AAD Group name> # i.e. bootcamp-01-test-all-read
               - cdf-group: cdf:oee:owner
                 idp-source-id: 115b007f-7b04-498a-b070-d5bcdd9856cd # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-12-prod-uc-001-oee-owner # i.e. bootcamp-01-test-all-owner
