@@ -80,7 +80,7 @@ bootstrap:
                 idp-source-id: c7ab98c8-bcc2-46a8-a7e5-e80dd7a3915f #<AAD Group Object Id> # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-12-proc-all-read #<AAD Group name> # i.e. bootcamp-01-test-all-read
 
-  namespaces:
+    namespaces:
     # Typical config will have separate namespace by data source ("src") and use cases ("uc")
     - ns-name: src
       description: Sources used for data extraction
