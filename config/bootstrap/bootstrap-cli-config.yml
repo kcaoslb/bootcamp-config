@@ -59,20 +59,20 @@ bootstrap:
         - cdf-project: cdf-bootcamp-12-test # i.e. bootcamp-01-test
           mappings:
               - cdf-group: cdf:root
-                idp-source-id: b91d358e-9f39-455e-8bd8-2938299c2d01 #<AAD Group Object id>
-                idp-source-name: bootcamp-12-test-admin #<AAD Group name>
+                idp-source-id: b91d358e-9f39-455e-8bd8-2938299c2d01
+                idp-source-name: bootcamp-12-test-admin
               - cdf-group: cdf:all:owner
-                idp-source-id: 28b7f934-5a3e-48a0-8965-7e1b30cdd1a5 # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-12-test-all-owner # i.e. bootcamp-01-test-all-owner
+                idp-source-id: 28b7f934-5a3e-48a0-8965-7e1b30cdd1a5
+                idp-source-name: bootcamp-12-test-all-owner
               - cdf-group: cdf:all:read
-                idp-source-id: 154f4b8c-dfd1-41d6-8b5f-a817e0a9b8f3 #<AAD Group Object Id> # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-12-test-all-read #<AAD Group name> # i.e. bootcamp-01-test-all-read
+                idp-source-id: 154f4b8c-dfd1-41d6-8b5f-a817e0a9b8f3
+                idp-source-name: bootcamp-12-test-all-read
               - cdf-group: cdf:uc:001:oee:owner
-                idp-source-id: 6c00c77a-c05f-44d6-86ed-99601e7c5c37 # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-12-test-uc-001-oee-owner # i.e. bootcamp-01-test-all-owner
+                idp-source-id: 6c00c77a-c05f-44d6-86ed-99601e7c5c37
+                idp-source-name: bootcamp-12-test-uc-001-oee-owner
               - cdf-group: cdf:uc:001:oee:read
-                idp-source-id: c8fcab10-9c82-442f-bf80-56b0062b803c #<AAD Group Object Id> # for the AAD Group to be matched to cdf-group
-                idp-source-name: bootcamp-12-test-uc-001-oee-read #<AAD Group name> # i.e. bootcamp-01-test-all-read
+                idp-source-id: c8fcab10-9c82-442f-bf80-56b0062b803c
+                idp-source-name: bootcamp-12-test-uc-001-oee-read
                 
         - cdf-project: cdf-bootcamp-12-prod # i.e. bootcamp-01-test
           mappings: #below are group Object Ids
